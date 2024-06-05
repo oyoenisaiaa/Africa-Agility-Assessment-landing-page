@@ -6,7 +6,8 @@
 
 ![purple overlay](./Images/Img%201%20-%20overlay.png)
 
-***
+### Project Details:
+
 #### Type - #landingpage
 
 #### Objective - receive support and partners towards success of the event
