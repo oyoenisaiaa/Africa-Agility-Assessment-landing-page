@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PURPLE 2024 - FAECARE Foundation</title>
+  <link rel="stylesheet" href="./landing-page.css">
+</head>
+
+<body>
+  <!-- Header: shows the page intro, header and event title / tagline-->
+  <header>
+
+    <h1>PURPLE 2024 - 11<sup>th</sup> Edition</h1>
+    <p>Annual Children's Charity Program | FAECARE Foundation</p>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#details">Details</a></li>
+        <li><a href="#partner">Partners</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#follow">Follow</a></li>
+        <!-- <li><a href="https://faecarefoundation.org/resources/" target="_blank">Resources</a></li> -->
+        
+
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- About: this section gives a descriptive text of PURPLE and FAECARE foundation and a list of its activities-->
+    <section id="about">
+      <div class="text-div">
+        <h2>About PURPLE 2024</h2>
+        <p class="text-content">I am excited to share information about PURPLE 2024, the annual children's charity program hosted by <b>Ndifreke
+          Andrew-Essien</b>,
+          the founder of <a id="a-about" href="https://faecarefoundation.org/" style="text-decoration: none;" target="_blank"><i>FAECARE Foundation</i></a>. This event is dedicated to
+          supporting children from diverse backgrounds, including orphans, vulnerable children, the less privileged,
+          children with disabilities, and many more.<br><br>
+
+          PURPLE 2024 💜 is a beacon of hope, joy, and empowerment for these young hearts.
+          It is aimed to inspire, motivate and empower children through various initiatives.<br><br>This year's event
+          will feature:</p>
+        <ul>
+          <li>Workshops and educational programs</li>
+          <li>Health and wellness activities</li>
+          <li>Interactive games, performances and prizes</li>
+          <li>Songs, dances, party Jollof</li>
+          <li>Community engagement and support</li>
+        </ul>
+      </div>
+      <div class="image-div"> <img src="./Images/Concert image.JPG" alt=""></div>
+
+    </section>
+
+
+    <!-- Event information: this section gives updates on the event details and how to participate-->
+    <section id="details">
+      <h2>Event details</h2>
+      <p>📅<b>Save the Date: </b> Saturday, June 8th, 2024</p>
+      <p>🕙<b>Time: </b>11:00am (WAT)</p>
+      <p>📍<b>Location: </b>Jesus House Auditorium, Port Harcourt / Aba Expressway, Nigeria</p>
+      <h2>How to get involved</h2>
+      <div>
+
+        <ol>
+          <li><b>Spread the Word:</b> Share with your network and let more people know about this amazing event.</li>
+          <li><b>Tell a Child:</b> If you know any child in Port Harcourt who would benefit from this event, please
+            inform them and their guardians.</li>
+          <li><b>Partner with Us:</b> We welcome organizations and individuals to join us as partners.</li>
+          <li><b>Support the Program:</b> Donations and support of any kind are greatly appreciated. Every bit of
+            support counts!</li>
+        </ol>
+
+      </div>
+    </section>
+
+    <!-- Support and Partners: sharing information on partnership -->
+
+    <section id="partner">
+      <!-- <h1 id="partner-header">Partner with Us</h1> -->
+        <div class="partner-image">
+          <img src="./Images/Partner with us.jpg" alt="Partnership">
+        </div>
+        <div class="partner-details">
+          <h1 id="partner-header">Partner with Us</h1>
+          <p class="text-content">Join us in making a difference in the lives of children.
+            Every child deserves love, care, and the opportunity to thrive.
+            Let's come together to create unforgettable memories for these children.
+          </p>
+          <p>As a partner, you will:</p>
+          <ul>
+            <li>Help provide educational resources and support</li>
+            <li>Contribute to health and wellness programs</li>
+            <li>Engage with the community and foster positive change</li>
+            <li>Gain visibility and recognition for your support</li>
+          </ul>
+
+          <p id="TextChangeUse">Contact us to learn more about partnership opportunities and how you can contribute to
+            PURPLE 2024.</p>
+          <button onclick="changeText()">Click to view account details</button>
+
+          <button id="ButtoninlineEventUse" onclick="showAccountDetails()">Click to view account details</button>
+
+          <p id="quote">
+            <q><i>If you want to touch the past, TOUCH A ROCK. If you want to touch the present, TOUCH A FLOWER. If you
+                want to touch the future, TOUCH A LIFE.</q></i>
+            ~ Unknown
+          </p>
+
+        </div>
+
+    </section>
+
+    <!-- Contact Form section -->
+    <section id="contact">
+      <h2 id="form-h2">Contact Us</h2>
+      <form id="contactForm">
+
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="full-name" autocomplete="name" required placeholder="firstname, lastname">
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" autocomplete="off" required>
+        </div>
+
+        <div class="form-group">
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="phone" autocomplete="off" required
+            placeholder="start with your country code">
+        </div>
+
+        <div>
+          <div class="form-group">
+            <label for="interests">I am interested in </label>
+            <select id="interests" name="interests" required>
+              <option value="select-an-option">Select an option</option>
+              <option value="volunteer">Volunteering </option>
+              <option value="babysitter">Babysitting - event day (10:00 - 18:00 WAT) </option>
+              <option value="meeting">Meeting</option>
+              <option value="partnership">Partnership </option>
+            </select>
+          </div>
+
+          <div>
+            <div class="form-group">
+              <label for="description">Additional information: </label>
+              <!-- <textarea itemid="description" name="description" required -->
+              <textarea id="description" name="description" required cols="30" rows="10"
+                placeholder="Include a brief description of your interest"></textarea>
+            </div>
+          </div>
+
+        </div>
+        <div class="form-group">
+          <label for="referral">How did you hear about us?</label>
+          <select id="referral" name="referral" required>
+            <option value="select-an-option"></option>
+            <option value="social_media">Social Media</option>
+            <option value="friend">Friend</option>
+            <option value="website">Website</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+
+        <div>
+          <div class="form-group">
+            <label for="firstNotice">What date did you hear about us?</label>
+            <input type="date" id="firstNotice" name="firstNotice">
+          </div>
+        </div>
+
+
+        <!-- <div class="form-group">
+                    <label>Will you attend PURPLE 2024?</label>
+                    <div class="radio-group">
+                        <label for="yes">
+                            <input type="radio" id="yes" name="attendance" value="yes" required> Yes
+                        </label>
+                        <label for="no">
+                            <input type="radio" id="no" name="attendance" value="no" required> No
+                        </label>
+                        <label for="tentative">
+                            <input type="radio" id="tentative" name="attendance" value="tentative" required> Tentative
+                        </label>
+                    </div>
+                </div> -->
+
+<!-- 
+        <div class="form-group">
+          <label for="attendance">Will you attend PURPLE 2024?</label>
+        <div class="radio-group"> 
+          <input type="radio" id="yes" name="attendance" value="yes" required>
+          <label for="yes"> Yes</label>
+
+          <label for="no"> No </label>
+          <input type="radio" id="no" name="attendance" value="no" required>
+
+
+          <label for="tentative">Tentative</label>
+          <input type="radio" id="tentative" name="attendance" value="tentative" required><br>
+
+        </div>
+        </div> -->
+
+        <!-- New -->
+
+        <div class="form-group">
+          <label>Will you attend PURPLE 2024?</label>
+          <div class="radio-group">
+              <label for="yes">
+                  <span>Yes</span>
+                  <input type="radio" id="yes" name="attendance" value="yes" required>
+              </label>
+              <label for="no">
+                  <span>No</span>
+                  <input type="radio" id="no" name="attendance" value="no" required>
+              </label>
+              <label for="tentative">
+                  <span>Tentative</span>
+                  <input type="radio" id="tentative" name="attendance" value="tentative" required>
+              </label>
+          </div>
+      </div>
+
+        <div class="form-group">
+          <button type="submit">Submit</button>
+
+          <form action="http://aa.mccrew.com/cgi-bin/reflect.cgi" method="post"></form>
+      </form>
+    </section>
+
+    <!-- Follow Us Section -->
+    <section id="follow">
+      <h2>Follow Us for More Information</h2>
+      <div class="social-media-icons">
+        <a href="https://m.facebook.com/groups/FAECARE/?ref=share&mibextid=lURqYx" target="_blank"><img src="./Images/icon-facebook.svg" alt="Facebook"></a>
+        <a href="https://x.com/faecare_org?s=21" target="_blank"><img src="./Images/icon-twitter.svg" alt="Twitter"></a>
+        <a href="https://www.instagram.com/faecare?igsh=MzRlODBiNWFlZA==" target="_blank"><img src="./Images/icon-instagram.svg" alt="Instagram"></a>
+      </div>
+    </section>
+
+
+  </main>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2024 FAECARE Foundation. All rights reserved.</p>
+  </footer>
+
+  <script src="./landing-page.js"></script>
+</body>
+
+</html>
