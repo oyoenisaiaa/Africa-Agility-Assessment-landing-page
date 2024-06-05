@@ -1,14 +1,21 @@
-# PURPLE 2024 - organized by FAECARE FOUNDATION.
+# MID BOOT CAMP ASSESMENT
 
-## PURPLE 2024 💜 is a beacon of hope, joy, and empowerment for these young hearts. It is aimed to inspire, motivate and empower children through various initiatives.
+## A landing page to support a children's charity event titled, PURPLE 2024. It is organized by FAECARE FOUNDATION.
+
+### PURPLE 2024 💜 is a beacon of hope, joy, and empowerment for these young hearts. It is aimed to inspire, motivate and empower children through various initiatives.
 
 ![purple overlay](./Images/Img%201%20-%20overlay.png)
 
-### Type - #landingpage
+***
+#### Type - #landingpage
 
-### Technologies - ```HTML``` ```CSS``` ```JavaScript```
+#### Objective - receive support and partners towards success of the event
+
+#### Deployed website - click [here](https://oa-africa-agility-purple-2024.netlify.app/)
+
+#### Technologies used - ```HTML``` ```CSS``` ```JavaScript```
 
 --- 
-Learn more - click [here](https://faecarefoundation.org/)
+#### To learn more about FAECARE Foundation - click [here](https://faecarefoundation.org/)
 
 ![ Purple event](./Images/Concert%20image.JPG)
