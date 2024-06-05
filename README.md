@@ -17,6 +17,10 @@
 #### Technologies used - ```HTML``` ```CSS``` ```JavaScript```
 
 --- 
-#### To learn more about FAECARE Foundation - click [here](https://faecarefoundation.org/)
+### [Learn more](https://faecarefoundation.org/) about FAECARE Foundation.
+
+Visit [Coding Beauty](https://codingbeautydev.com {:target="_blank"}) {:target="_blank"} for articles on JavaScript, React, Next.js, and more.
+
+[link](url){:target="_blank"}
 
 ![ Purple event](./Images/Concert%20image.JPG)
