@@ -14,7 +14,7 @@
 
 #### Deployed website - click [here](https://oa-africa-agility-purple-2024.netlify.app/)
 
-#### Technologies used - ```HTML``` ```CSS``` ```JavaScript```
+#### Technologies used - ```HTML``` ```CSS``` ```JavaScript``` ```Netlify```
 
 --- 
 ### [Learn more](https://faecarefoundation.org/) about FAECARE Foundation.
